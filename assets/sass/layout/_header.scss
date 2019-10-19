@@ -1,10 +1,20 @@
 .header{
     &__nav-container{
-        background-color: green;
+        background-color: $eerie-black;
     }
 
-    li a{
-        font-family: $playfair-display;
-        
+    &__logo{
+        width: 100px;
+    }
+
+    &__button{
+        background-color: #222323;
+    }
+
+    &__a{
+        color:$white;
+        &:hover{
+            color:$fuzzy-wuzzy;
+        }
     }
 }
