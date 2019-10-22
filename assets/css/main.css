@@ -7597,6 +7597,41 @@ body {
 img {
   max-width: 100vw; }
 
+.footer {
+  padding: 50px 0px;
+  background-color: #121619;
+  text-align: center; }
+  .footer img {
+    width: 120px; }
+
+.profile {
+  border-top: 1px solid #6C6E70;
+  border-bottom: 1px solid #6C6E70;
+  text-align: center;
+  padding: 50px;
+  margin-top: 50px; }
+  .profile ul {
+    list-style: none;
+    padding: 0px; }
+    .profile ul li {
+      display: inline-block;
+      white-space: normal;
+      text-align: left;
+      padding: 10px;
+      vertical-align: middle; }
+  .profile__name {
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    font-weight: 900 italic;
+    font-style: italic; }
+  .profile__text {
+    width: 50%; }
+  .profile__mail {
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    color: #E56353;
+    font-weight: 300; }
+
 .main-content {
   padding: 0% 10%; }
   .main-content__h2 {
@@ -7640,6 +7675,25 @@ img {
   color: #ffffff; }
   .header__a:hover {
     color: #E56353; }
+
+.pagination {
+  background-color: #dfdfdf;
+  padding: 20px 0px;
+  color: #222323; }
+  .pagination nav {
+    margin: 0 auto; }
+  .pagination ul {
+    margin: 0px; }
+  .pagination .page-item:first-child .page-link {
+    border-radius: 20px 0px 0px 20px; }
+  .pagination .page-item:last-child .page-link {
+    border-radius: 0px 20px 20px 0px; }
+  .pagination .page-item.active .page-link {
+    background-color: #222323;
+    color: white;
+    border: 0px; }
+  .pagination .page-link {
+    color: #222323; }
 
 .buttons {
   margin-top: 20px; }
